@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-family: "Roboto", sans-serif;
+
+    /* background */
+    --bg-menu: #102123;
+    --bg-blanco: #fff;
+    --bg-gris-claro: #f5f7fa;
+    --bg-gris-oscuro: #efefef;
+    --bg-negro-opacidad: #0000004a;
+    --bg-menu-opacidad: #252b3600;
+    --bg-modal-scroll: #a1a1a1;
+    --bg-unac: #104170;
+    --bg-unac-hover: #1f5d9be1;
+
+
+    /* text */
+    --text-blanco: #fff;
+    --text-negro-opacidad: #0000003e;
+    --text-gris-opacidad: #3535355b;
+    --text-azul-opacidad: #2050aba7;
+    --text-menu-opacidad: #252b36;
+    --text-menu: #424242fa;
+    --text-unac: #2A5783;
+
+}
+
+#Scroll {
+    overflow-y: auto;
+    height: 100vh;
+    /* Asegúrate de que el contenedor tome toda la altura de la ventana */
+}
+
+
+
+@keyframes scaleteme {
+    0% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+    25% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+
+    70% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+}

@@ -1,0 +1,454 @@
+.ReferenciaCongreso {
+    width: 100%;
+
+}
+
+
+.ReferenciaCongreso_Header {
+    width: 100%;
+    height: 400px;
+    background-color: var(--bg-unac);
+    padding: 10% 10% 0 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ReferenciaCongreso_Header::before {
+    content: "";
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../assets/img/banner_slices.png);
+    background-size: contain;
+    opacity: 0.7;
+    z-index: 2;
+    animation-name: scaleteme;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.ReferenciaCongreso_Header>* {
+    position: relative;
+    z-index: 2;
+}
+
+.ReferenciaCongreso_Header div {
+    position: relative;
+    z-index: 100;
+}
+
+.ReferenciaCongreso_Header h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.ReferenciaCongreso_Header h1 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 0.9;
+    font-weight: 900;
+}
+
+.ReferenciaCongreso_Header h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.ReferenciaCongreso_Header img {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: -30%;
+    z-index: 1;
+}
+
+.ReferenciaCongreso_Header .svgDos {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    opacity: 0.2;
+}
+
+.ReferenciaCongreso_Header .mapa {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 400px;
+    opacity: 0.4;
+}
+
+.ReferenciaCongreso_Titulo {
+    width: 100%;
+    height: 220px;
+    margin-top: 40px;
+    padding: 20px 15%;
+}
+
+.ReferenciaCongreso_Titulo--Content {
+
+    background-color: var(--bg-unac);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.ReferenciaCongreso_Titulo--Content h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.ReferenciaCongreso_Titulo--Content h3 {
+    font-size: 20px;
+    color: #e8e8e8b1;
+    margin-bottom: 10px;
+}
+
+.ReferenciaCongreso_Titulo--Content .icono {
+    font-size: 40px;
+    color: #fff;
+}
+
+.ReferenciaCongreso_Modalidades {
+    width: 100%;
+    padding: 50px 5%;
+    background-color: #e9e9e9;
+}
+
+.ReferenciaCongreso_Modalidades h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--bg-unac);
+}
+
+.ReferenciaCongreso_Modalidades p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #0000008f;
+}
+
+.ReferenciaCongreso_Modalidades--Iconos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.ReferenciaCongreso_Modalidades--Iconos div {
+    width: 50%;
+    text-align: center;
+}
+
+.ReferenciaCongreso_Modalidades--Iconos div .icono {
+    font-size: 60px;
+    color: #0000008f;
+}
+
+.ReferenciaCongreso_Modalidades--Iconos div h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.ReferenciaCongreso_Modalidades--Iconos div p {
+    font-size: 18px;
+    color: #000000d4;
+    margin-bottom: 20px;
+}
+
+.ReferenciaCongreso_Modalidades--Iconos div a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: var(--bg-unac);
+    padding: 5px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ReferenciaCongreso_Modalidades--Iconos div a:hover {
+    background-color: var(--bg-unac-hover) ;
+}
+
+
+.ReferenciaCongreso_Requisitos {
+    width: 100%;
+    padding: 20px 5%;
+    margin-top: 2%;
+}
+
+
+.ReferenciaCongreso_Requisitos--Content {
+    position: relative;
+    width: 100%;
+    background-color: #0B0B2D;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.ReferenciaCongreso_Requisitos--Content ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../assets/img/banner_slices.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.ReferenciaCongreso_Requisitos--Content>* {
+    position: relative;
+    z-index: 2;
+}
+
+.ReferenciaCongreso_Requisitos--Content-Texto {
+    width: 100%;
+    text-align: center;
+}
+
+.ReferenciaCongreso_Requisitos--Content-Texto h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.ReferenciaCongreso_Requisitos--Content-Texto h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #457099;
+    margin: 20px 0;
+}
+
+.ReferenciaCongreso_Requisitos--Content-Texto p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff8f;
+    font-weight: 300;
+}
+
+
+.ReferenciaCongreso_Requisitos--Content-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19%, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.ReferenciaCongreso_Requisitos--Content-div_Card {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff11;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ReferenciaCongreso_Requisitos--Content-div_Card h3 {
+    font-size: 25px;
+    color: #ffffffba;
+    text-align: center;
+}
+
+.Referencia_Proceso {
+    width: 100%;
+    padding: 50px 5%;
+    background-color: #e9e9e9;
+    margin-top: 3%;
+}
+
+.Referencia_Proceso h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--bg-unac);
+
+}
+
+.Referencia_Proceso--Content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Referencia_Proceso--Content div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.Referencia_Proceso--Content div .icono {
+    font-size: 50px;
+    color: #0000008f;
+}
+
+.Referencia_Proceso--Content div h3 {
+    margin-bottom: 10px;
+}
+
+.Referencia_Proceso--Content div ul {
+    list-style: none;
+}
+
+.Referencia_Proceso--Content div ul h4 {
+    font-weight: 600;
+    color: var(--bg-unac);
+
+}
+
+.Referencia_Proceso--Content div ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.Referencia_Ponencia {
+    width: 100%;
+    padding: 20px 5%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.Referencia_Ponencia--Content {
+    width: 100%;
+    background-color: #e9e8e8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.Referencia_Ponencia--Content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--bg-unac);
+
+}
+
+.Referencia_Ponencia--Content-Card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Referencia_Ponencia--Content-Card div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.Referencia_Ponencia--Content-Card div .icono {
+    font-size: 50px;
+    color: #0000008f;
+}
+
+.Referencia_Ponencia--Content-Card div h3 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 700px) {
+
+    .ReferenciaCongreso_Header {
+        height: 500px;
+        padding: 30% 10% 0 10%;
+    }
+
+    .ReferenciaCongreso_Header img {
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        z-index: 1;
+    }
+
+    .ReferenciaCongreso_Header .svgDos {
+        width: 100px;
+    }
+
+
+    .ReferenciaCongreso_Titulo {
+        height: auto;
+        margin-top: 20px;
+        padding: 20px 5%;
+    }
+
+    .ReferenciaCongreso_Titulo--Content {
+        background-color: var(--bg-unac);
+        text-align: center;
+        padding: 10px;
+    }
+
+    .ReferenciaCongreso_Titulo--Content h1 {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .ReferenciaCongreso_Titulo--Content h3 {
+        font-size: 15px;
+    }
+
+    .ReferenciaCongreso_Modalidades--Iconos {
+        display: block;
+    }
+
+    .ReferenciaCongreso_Modalidades--Iconos div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ReferenciaCongreso_Requisitos--Content-div {
+        display: block;
+    }
+
+    .ReferenciaCongreso_Requisitos--Content-div div {
+        margin-bottom: 20px;
+    }
+
+    .Referencia_Proceso--Content,
+    .Referencia_Ponencia--Content-Card {
+        display: block;
+    }
+
+}

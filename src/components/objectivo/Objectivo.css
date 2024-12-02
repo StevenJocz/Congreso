@@ -1,0 +1,220 @@
+.Objectivo {
+    width: 100%;
+    padding: 50px 5%;
+    background-color: #dcdcdc;
+    margin-top: 50px;
+    position: relative;
+}
+
+.Objectivo_Content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Objectivo_left {
+    width: 40%;
+}
+
+.Objectivo_left img {
+    width: 100%;
+}
+
+.Objectivo_right {
+    width: 60%;
+}
+
+.Objectivo_right h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--bg-unac);
+}
+
+.Objectivo_right p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #0000008f;
+}
+
+.Objectivo_BotonVideo {
+    width: 250px;
+    height: 40px;
+    background-color: var(--bg-unac);
+    margin: 0 30%;
+    margin-top: 20px;
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.Objectivo_BotonVideo .icono {
+    font-size: 40px;
+    animation-name: scalation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scalation {
+    50% {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.Objectivo_Video {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000096;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.Objectivo_Video--Content {
+    width: 70%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.Objectivo_Video--Content--header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.Objectivo_Video--Content--header .icono {
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.Objectivo_Iconos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: -40px;
+    border-top: 1px solid #1c276011;
+}
+
+.Objectivo_Iconos div {
+    width: 23%;
+    text-align: center;
+}
+
+
+
+.Objectivo_Iconos div p {
+    color: #000000b8;
+    margin-top: 10px;
+}
+
+.Objectivo_verTerminos {
+    width: 100%;
+}
+
+.Objectivo_verTerminos a {
+    text-decoration: none;
+}
+
+
+.Objectivo_verTerminos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Objectivo_verTerminos a {
+    background-color: var(--bg-unac);
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+@media screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 700px) {
+    .Objectivo_Content {
+        width: 100%;
+        display: block;
+    }
+
+    .Objectivo_left {
+        width: 100%;
+    }
+
+    .Objectivo_right {
+        width: 100%;
+    }
+
+    .Objectivo_Iconos {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 80px;
+        border-top: 1px solid #1c276011;
+    }
+
+    .Objectivo_Iconos div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Objectivo_BotonVideo {
+        width: 100%;
+        height: 40px;
+        margin: 0 0%;
+        margin-top: 20px;
+    }
+
+    .Objectivo_Video {
+        width: 100%;
+        height: 750px;
+        top: 50%;
+        left: 0;
+    }
+
+    .Objectivo_Video--Content {
+        width: 100%;
+        height: 800px;
+    }
+}

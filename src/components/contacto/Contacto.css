@@ -1,0 +1,34 @@
+
+.Contacto {
+    width: 100%;
+    padding: 20px 5%;
+    margin-top: 2%;
+}
+
+.Contacto_Content {
+    position: relative; 
+    width: 100%;
+    background-color: #0B0B2D;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden; 
+}
+
+.Contacto_Content::before {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../assets/img/banner_slices.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3; 
+    z-index: 1; 
+}
+
+.Contacto_Content > * {
+    position: relative;
+    z-index: 2; 
+}

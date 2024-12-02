@@ -1,0 +1,105 @@
+.Categoria {
+    width: 100%;
+    padding: 20px 5%;
+    margin-top: 40px;
+}
+
+.Categoria_Content {
+    width: 100%;
+    background-color: #e9e8e8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+}
+
+
+.Categoria_Content h2 {
+    font-size: 27px;
+    color: var(--bg-unac);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Categoria_Content .Categoria_Content_img {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20%;
+    text-align: center;
+}
+
+.Categoria_Content .Categoria_Content_img img {
+    width: 110px;
+    height: 110px;
+}
+
+.Categoria_Content_Requisitos {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.Categoria_Content_Requisitos h3 {
+    font-size: 27px;
+    color: var(--bg-unac);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Categoria_Content_Requisitos ul {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.Categoria_Content_Requisitos ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Categoria_Content_Requisitos ul li span {
+    color: var(--bg-unac);
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.Categoria_Content_Requisitos--Referencia {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Categoria_Content_Requisitos--Referencia .icono {
+    font-size: 80px;
+    color: var(--bg-unac);
+}
+
+.Categoria_Content_Requisitos--Referencia .icono:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+@media screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 700px) {
+    .Categoria_Content .Categoria_Content_img {
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .Categoria_Content .Categoria_Content_img img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+}

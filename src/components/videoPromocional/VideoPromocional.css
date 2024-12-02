@@ -1,0 +1,116 @@
+.VideoPromocional {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 5%;
+    background-color: #e9e9e9;
+    margin-top: 100px;
+}
+
+
+.VideoPromocional_Texto {
+    width: 40%;
+}
+
+.VideoPromocional_Texto h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--bg-unac);
+}
+
+.VideoPromocional_Texto p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #0000008f;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--bg-unac);
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+}
+
+.video-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-top: -10px;
+}
+
+.play-pause-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.progress-bar {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    ;
+}
+
+.volume-bar {
+    width: 100px;
+}
+
+
+@media screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 700px) {
+    .VideoPromocional {
+        width: 100%;
+        display: block;
+        margin-top: 100px;
+    }
+
+
+    .VideoPromocional_Texto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .VideoPromocional_Texto h2 {
+        font-size: 30px;
+    }
+
+    .progress {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 0 10px;
+    }
+
+    .progress-bar {
+        display: none;
+    }
+}
